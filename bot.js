@@ -46,14 +46,9 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 :dart: ylis
 :dart: ysetname
 :dart: ysetavatar
-Thank You Code By Yo[S]siF#7000  ${argresult}**`)	
-	
-	
-	
+Thank You Code By Yo[S]siF#7000  ${argresult}**`)			
 }
 });
-
-
 
 
 
