@@ -37,8 +37,9 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
   client.user.setAvatar(argresult);
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
  
+	client.on('message', message => {
+ var prefix = "y";
  if (message.content.startsWith(adminprefix + help')) {
- 
       message.channel.send(`**:dart: yply
 :dart: yst
 :dart: ywat
